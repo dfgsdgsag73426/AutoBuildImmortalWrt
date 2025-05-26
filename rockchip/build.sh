@@ -47,6 +47,7 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES  luci-app-nlbwmon"
 PACKAGES="$PACKAGES luci-i18n-speederv2-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+PACKAGES="$PACKAGES luci-proto-wireguard"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
