@@ -63,6 +63,11 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-mwol-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+PACKAGES="$PACKAGES luci-proto-wireguard"
 # docker
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
 # 文件管理器
