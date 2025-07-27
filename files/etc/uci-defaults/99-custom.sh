@@ -159,6 +159,5 @@ uci commit
 FILE_PATH="/etc/openwrt_release"
 NEW_DESCRIPTION="Compiled by wukongdaily"
 sed -i "s/DISTRIB_DESCRIPTION='[^']*'/DISTRIB_DESCRIPTION='$NEW_DESCRIPTION'/" "$FILE_PATH"
-# 设置主机名
-uci set system.@system[0].hostname='OpenWrt'  # <<< 你要设置的主机名
+
 exit 0
